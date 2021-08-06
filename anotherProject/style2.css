@@ -1,0 +1,102 @@
+body{
+    background-color: white;
+    margin:0px;
+    padding:0px;
+}
+#navigation{
+    background-color: #333333;
+    display:flex;
+    justify-content: space-around;
+    height:35px;
+    padding-left:10%;
+    padding-right:10%;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.navigation{
+    padding-top: 8px;
+    color: rgba(255, 255, 255, 0.438);
+}
+.navigation:hover{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+.text:hover{
+    text-decoration: underline;
+}
+
+#text{
+    background-color: rgb(245, 243, 243);
+    margin-right: -8px;
+    font-size: 55%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+img{
+    width:100%;
+}
+
+#shop_icon{
+    margin-top: 2px;
+}
+#apple_logo{
+    margin-top: 2px;
+}
+
+#back{
+    display: flex;
+    justify-content: center;
+    height:30px;
+    background-color: #6495ED;
+}
+
+#backLink{
+    color:black;
+}
+
+p{
+    padding-left:10px;
+    padding-right:10px;
+    text-align: center;
+}
+
+@media(max-width: 320px){
+    #apple_logo{
+        display: none;
+    }
+    #shop_icon{
+        display: none;
+    }
+    #search_icon{
+        display:none;
+    }
+
+
+    #navigation{
+        font-size: 80%;
+    }
+
+    p{
+        padding-left:10px;
+        padding-right: 10px;
+        text-align: center;
+        font-size: 131%;
+    }
+
+    #back{
+        display: flex;
+        justify-content: center;
+        height:30px;
+        width:328px;
+        background-color: #6495ED;
+    }
+
+    #bigImg{
+        height:195.1px;
+    }
+}
